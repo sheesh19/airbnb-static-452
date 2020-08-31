@@ -1,0 +1,10 @@
+<h2>Book this Flat!</h2>
+
+<%= link_to "Back to Flats", root_path %>
+
+<ul>
+    <li><%= @flat["name"] %></li>
+    <li><%= @flat["price"] %> <%= @flat["priceCurrency"] %></li>
+</ul>
+
+<%= image_tag @flat["imageUrl"] %>
